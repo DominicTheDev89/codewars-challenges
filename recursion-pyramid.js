@@ -29,3 +29,4 @@ function pyramid(height) {
       return blocks + pyramid(height - 1)
     }
   }
+
