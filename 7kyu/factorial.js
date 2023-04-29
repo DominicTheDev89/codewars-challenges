@@ -1,0 +1,11 @@
+// Your task is to write function factorial.
+
+// My solution
+
+function factorial(n){
+    let answer = 1
+    for(let i = 1; i <= n; i++){
+      answer *= i
+    }
+    return answer
+  }
